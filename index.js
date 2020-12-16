@@ -9,7 +9,7 @@ const calRender = function () {
   ).getDate()
 
   let today = new Date()
-  document.getElementById('current_date').innerHTML = date.toDateString()
+  document.getElementById('current_date').innerHTML = today.toDateString()
 
 
   const month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
